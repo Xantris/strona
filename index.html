@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Filip Giecewicz" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Strona główna — Z-kom</title>
+
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/nav.css" />
+    <link rel="stylesheet" href="./style/cuts.css" />
+    <link rel="stylesheet" href="./style/section.css" />
+    <link rel="stylesheet" href="./style/calendar.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/8ea33ece6b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:300,400,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header id="main" class="section">
+      <nav id="nav">
+        <div class="container">
+          <div class="contact flex">
+            <div class="flex">
+              <a href="tel:+48999999999">
+                <i class="fas fa-phone"></i>
+                <span>+48 999 999 999</span>
+              </a>
+              <a href="mailto:kontakt@z-kom.pl">
+                <i class="fas fa-envelope"></i>
+                <span>kontakt@z-kom.pl</span>
+              </a>
+            </div>
+            <div>
+              <a href="#" class="login">
+                <i class="fas fa-sign-in-alt"></i>
+                <span>Zaloguj się</span>
+              </a>
+            </div>
+          </div>
+          <hr />
+
+          <div class="navbar flex">
+            <img class="logo" src="./images/logo/logo.png" alt="Z-kom logo" />
+            <ul id="navbar" class="flex">
+              <li data-section="main"><a href="#">Strona główna</a></li>
+              <li data-section="features">
+                <a href="#features">Co zapewniamy?</a>
+              </li>
+              <li data-section="complaint"><a href="#complaint">Reklamacje</a></li>
+              <li data-section="about"><a href="#about">O nas</a></li>
+              <li class="nav-burger"><a href="javascript:void(0);" onclick="burgerMenu();"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </div>
+
+          <div class="navbar-small" style="display: none;">
+            <ul id="navbar" class="flex">
+              <li data-section="main"><a href="#">Strona główna</a></li>
+              <li data-section="features">
+                <a href="#features">Co zapewniamy?</a>
+              </li>
+              <li data-section="complaint"><a href="#complaint">Reklamacje</a></li>
+              <li data-section="about"><a href="#about">O nas</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+
+      <div class="nav_main">
+        <div class="container">
+          <div data-aos="fade-right">
+            <h2>Z-kom.pl</h2>
+            <h1>Najlepszy <span>sklep</span> z<span> RTV i AGD</span></h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              turpis elit, bibendum <br />pulvinar quam ut, pellentesque mollis
+              justo. Nam nec fringilla augue.
+            </p>
+          </div>
+          <div class="nav_main-buttons" data-aos="fade-up">
+            <a class="btn transparent" href="./products.html">Zobacz ofertę</a>
+            <a class="btn solid" href="./products.html">Zobacz przeceny</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="features" class="section cut_top">
+        <div class="container">
+          <div class="section-info" data-aos="fade-up">
+            <h3>Zapewniamy</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              turpis elit, bibendum <br />pulvinar quam ut, pellentesque mollis
+              justo. Nam nec fringilla augue.
+            </p>
+            <hr />
+          </div>
+
+          <div class="flex center">
+            <div class="features-text">
+              <div class="single-feature left" data-aos="fade-left">
+                <div>
+                  <h4>Lorem ipsum</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <div class="icon"><i class="fas fa-tv"></i></div>
+              </div>
+              <div class="single-feature left" data-aos="fade-left">
+                <div>
+                  <h4>Lorem ipsum</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <div class="icon"><i class="fas fa-tv"></i></div>
+              </div>
+              <div class="single-feature left" data-aos="fade-left">
+                <div>
+                  <h4>Lorem ipsum</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+                <div class="icon"><i class="fas fa-tv"></i></div>
+              </div>
+            </div>
+
+            <div class="features-img">
+              <img src="./images/sections/feature.png" alt="" />
+            </div>
+
+            <div class="features-text">
+              <div class="single-feature right" data-aos="fade-right">
+                <div class="icon"><i class="fas fa-tv"></i></div>
+                <div>
+                  <h4>Lorem ipsum</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="single-feature right" data-aos="fade-right">
+                <div class="icon"><i class="fas fa-tv"></i></div>
+                <div>
+                  <h4>Lorem ipsum</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+              <div class="single-feature right" data-aos="fade-right">
+                <div class="icon"><i class="fas fa-tv"></i></div>
+                <div>
+                  <h4>Lorem ipsum</h4>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="complaint" class="section white">
+        <div class="container">
+          <div class="section-info" data-aos="fade-up">
+            <h3>Reklamacje</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              turpis elit, bibendum <br />pulvinar quam ut, pellentesque mollis
+              justo. Nam nec fringilla augue.
+            </p>
+            <hr />
+          </div>
+
+          <div class="flex center">
+            <div data-aos="fade-right" class="calendar">
+              <div id="calendar">
+                <div class="calendar-header">
+                  <a data-calendar-toggle="previous"
+                    ><i class="fas fa-angle-left"></i
+                  ></a>
+                  <div
+                    class="calendar-header__label"
+                    data-calendar-label="month"
+                  ></div>
+                  <a data-calendar-toggle="next"><i class="fas fa-angle-right"></i
+                    ></i></a>
+                </div>
+                <div class="calendar-week">
+                  <span>Pon</span>
+                  <span>Wt</span>
+                  <span>Śr</span>
+                  <span>Czw</span>
+                  <span>Pt</span>
+                  <span>Sob</span>
+                  <span>Niedz</span>
+                </div>
+                <div class="calendar-body" data-calendar-area="month"></div>
+              </div>
+            </div>
+
+            <div class="form" data-aos="fade-left">
+              <h4>Wypełnij formularz</h4>
+              <form id="form" action="#">
+                <label>Imie: <input type="text" name="name" id="name" placeholder="Wpisz imie..." required></label>
+                <label>Nazwisko: <input type="text" name="lastname" id="lastname" placeholder="Wpisz nazwisko..." required></label>
+                <label>Email: <input type="email" name="mail" id="mail" placeholder="Wpisz email..." required></label>
+                <label>Telefon: <input type="tel" name="phone" id="phone" pattern="[0-9]{3} [0-9]{3} [0-9]{3}" placeholder="Wpisz numer telefonu..." onchange="this.value = addSpaces(this.value);" required></label>
+                <input class="hidden" type="date" name="date" id="date" placeholder="date">
+
+                <input type="submit" class="btn solid" value="Zapisz się na kurs">
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section white">
+        <div class="container">
+          <div class="section-info" data-aos="fade-up">
+            <h3>O nas</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              turpis elit, bibendum <br />pulvinar quam ut, pellentesque mollis
+              justo. Nam nec fringilla augue.
+            </p>
+            <hr />
+          </div>
+
+          <div class="flex center">
+            <div class="about" data-aos="fade-right">
+              <div class="single-about">
+                <h4>Główne informacje</h4>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  turpis elit, bibendum pulvinar quam ut, pellentesque mollis
+                  justo. Nam nec fringilla augue.
+                </p>
+              </div>
+
+              <div class="single-about">
+                <h4>Godziny otwarcia</h4>
+                <ul>
+                  <li>pon-pt 16:00 - 18:00</li>
+                  <li>sob 14:00 - 16:00</li>
+                </ul>
+              </div>
+              <div class="single-about">
+                <h4>Kontakt</h4>
+                <ul>
+                  <li>
+                    <a href="tel:+48999999999">
+                      <i class="fas fa-phone"></i>
+                      +48 999 999 999
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:kontakt@z-kom.pl">
+                      <i class="fas fa-envelope"></i>
+                      kontakt@z-kom.pl
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="about-img" data-aos="fade-left">
+              <img src="./images/logo/logo.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container flex">
+        <div class="footer_left">
+          <img src="./images/logo/logo.png" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magni ad, enim autem ipsum nesciunt reprehenderit assumenda fuga est nulla quod deserunt quam. Aliquid ipsum unde quo alias? Temporibus, veniam!</p>
+        </div>
+        <div class="footer_center">
+          <h4>Social media</h4>
+          <div class="social">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+
+          </ul>
+        </div>
+        <div class="footer_right">
+          <h4>Godziny otwarcia:</h4>
+          <ul>
+            <li>pon-pt 16:00 - 18:00</li>
+            <li>sob 14:00 - 16:00</li>
+          </ul>
+
+          <h4>Kontakt:</h4>
+          <ul>
+            <li>
+              <a href="tel:+48999999999">
+                +48 999 999 999
+                <i class="fas fa-phone"></i>
+              </a>
+            </li>
+            <li>
+              <a href="mailto:kontakt@z-kom.pl">
+                kontakt@z-kom.pl
+                <i class="fas fa-envelope"></i>
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+      <div class="design">
+        <h4>
+          <script type="text/javascript">
+          var d = new Date()
+          document.write("Copyright © " + d.getFullYear() + " Z-KOM.pl")
+          </script>
+        </h4>
+        <p>Designed and written by Filip Giecewicz</p>
+      </div>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/calendar-min.js"></script>
+    <script src="./js/nav.js"></script>
+    <script src="./js/form.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200
+      });
+
+      Callendar.init({
+        disablePastDays: true,
+        avaliableDates: []
+      });
+    </script>
+  </body>
+</html>

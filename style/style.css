@@ -1,0 +1,58 @@
+:root {
+  font-size: 16px;
+}
+
+html,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+  font-weight: 100;
+  width: 100%;
+
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  align-items: center;
+}
+.flex.center {
+  justify-content: space-around;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+.hidden {
+  display: none;
+}

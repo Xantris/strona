@@ -1,0 +1,57 @@
+section {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#details {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#details td, #details th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#details tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#details tr:hover {
+    background-color: #ddd;
+}
+
+#details th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(43, 114, 180);
+    color: white;
+    width: 100%;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    width: 49%;
+}
+
+figure {
+    width: 49%;
+}
+
+footer {
+    color: #fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .product {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

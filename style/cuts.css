@@ -1,0 +1,72 @@
+.cut_bottom, .cut_top {
+  position: relative;
+}
+.cut_top:before {
+  content: '';
+  position: absolute;
+  bottom: 99.99%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  border-top: 3.75vw solid transparent;
+  border-right: 50vw solid #fff;
+  border-bottom: 3.5vw solid #fff;
+  border-left: 50vw solid transparent;
+}
+.cut_bottom:after {
+  content: '';
+  position: absolute;
+  top: 99.99%;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  border-top: 3.75vw solid #fff;
+  border-right: 50vw solid #fff;
+  border-bottom: 3.5vw solid transparent;
+  border-left: 50vw solid transparent;
+}
+
+
+.btn {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  border: 1px solid #fff;
+  height: 37px;
+  line-height: 35px;
+  padding: 0 25px;
+  border-radius: 0;
+  text-transform: uppercase;
+  -webkit-transition: color .3s, background-color .3s, border-color .3s;
+  transition: color .3s, background-color .3s, border-color .3s;
+}
+.btn.solid {
+  background-color: #0088b9;
+  border-color: #0088b9;
+}
+.btn.solid:hover,
+.btn.solid:active {
+  border-color: #fff;
+  background-color: #fff;
+  color: #0088b9;
+}
+.btn.transparent {
+  background-color: transparent;
+  border-color: #fff;
+}
+.btn.transparent:hover, 
+.btn.transparent:active {
+  background-color: #fff;
+  color: #000;
+}
+.btn:hover,
+.btn:active {
+  -webkit-transition: color .3s, background-color .3s, border-color .3s;
+  transition: color .3s, background-color .3s, border-color .3s;
+}
